@@ -1,0 +1,31 @@
+.keywords
+    z-index: 100
+    position: absolute
+    top: 53px
+
+.keywords-invisible
+    display: none
+
+.keyword-item, .keyword-item-list
+    +size(600px,78px)
+    background: white
+    display: flex
+    align-items: center
+    img
+        margin-left: 10px
+    span
+        +text(25px,1px,#333)
+        width: 550px
+        margin-left: 10px
+        overflow: hidden
+        text-overflow: ellipsis
+        white-space: nowrap
+
+.keyword-item-list
+    +size(400px,78px)
+
+
+.selected-keyword-item
+    background: #333
+    span
+        color: white

@@ -1,0 +1,35 @@
+.video-container
+    display: flex
+
+.btn
+    +size(100px,200px)
+    display: flex
+    flex-direction: column
+    align-items: center
+
+
+.back, .refresh
+    +size(80px,80px)
+    background: rgba(255,255,255,0.5)
+    border-radius: 100%
+    margin-bottom: 20px
+    cursor: pointer
+    transition: 0.5s
+    img
+        +size(100%,100%)
+    &:hover
+        background: rgba(255,255,255,0.8)
+
+.iframes-container
+    // +size(1300px,600px)
+    display: flex
+    justify-content: center
+    align-items: center
+    img
+        +size(100px,100px)
+        +center
+
+
+.fakeScreen
+    +size(100%,100%)
+    background: black

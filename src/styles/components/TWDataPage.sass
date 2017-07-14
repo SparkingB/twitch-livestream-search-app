@@ -1,0 +1,41 @@
+.whole-page-container
+    +size(100%,100%)
+
+.top-homepage
+    +size(100%,70px)
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    position: fixed
+    top: 0
+    z-index: 100
+    background: #222
+
+.cancelfix
+    position: static
+
+.top-homepage-title
+    width: 330px
+    min-width: 330px
+    font-size: 25px
+    margin-right: 30px
+
+.top-homepage-searchbar
+    +size(400px,30px)
+    text-align: center
+    font-size: 20px
+    margin-right: 30px
+    // &:focus + div
+    //     display: block
+
+.top-homepage-loadingicon
+    +size(60px,60px)
+
+.datapage
+    margin-top: 70px
+    background: rgba(0,0,0,0.2)
+    display: flex
+    justify-content: center
+    align-items: center
+    padding-top: 40px
